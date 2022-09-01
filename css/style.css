@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 1170px;
+}
+.carousel-indicators{
+    position: relative;
+    margin-top: 1.5rem;
+}
+.carousel-indicators [data-bs-target]{
+    background-color: red;
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+}
+.items{
+    max-width: 800px;
+    margin: auto;
+}
+
+.stars{
+    margin-bottom: 1.5rem;
+}
+.stars i{
+    color: red;
+    font-size: 1.5rem;
+    padding: 0 .5rem;
+}
+.items q{
+    font-size: 1.2rem;
+}
+.carousel-control-next i, .carousel-control-prev i{
+    color: red;
+    font-size: 2rem;
+}
+.nav-item a:hover{
+    color: green;
+}
+
